@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title data-en="Andrés Cifuentes — Embedded, Electronics &amp; Computer Vision Engineer">Andrés Cifuentes — Sistemas Embebidos, Electrónica y Visión Artificial</title>
+  <meta name="description" content="Andrés Fabián Cifuentes Muciño — Ingeniero en Mecatrónica: sistemas embebidos, electrónica, programación y visión artificial.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header">
+    <div class="wrap nav-bar">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">AC.</span>
+        <span class="brand-name">Andrés F. Cifuentes Muciño</span>
+      </div>
+
+      <button id="langToggle" class="lang-btn" aria-pressed="false" title="Cambiar idioma / Change language">
+        <span class="mono">ES</span> ⇄ <span class="mono">EN</span>
+      </button>
+
+      <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="mainNav" aria-label="Abrir menú">
+        <span class="bars" aria-hidden="true"></span>
+      </button>
+
+      <nav id="mainNav" class="main-nav" aria-label="Navegación principal">
+        <ul>
+          <li><a href="#hero" data-en="Home">Inicio</a></li>
+          <li><a href="#portfolio" data-en="Work">Portafolio</a></li>
+          <li><a href="#experience" data-en="Experience">Experiencia</a></li>
+          <li><a href="#skills" data-en="Skills">Habilidades</a></li>
+          <li><a href="#languages" data-en="Languages">Idiomas</a></li>
+          <li><a href="#certificates" data-en="Certificates">Certificados</a></li>
+          <li><a href="#contact" class="cta" data-en="Contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= HERO ================= -->
+    <section id="hero" class="hero wrap">
+      <div class="hero-copy">
+        <p class="eyebrow" data-en="Mechatronics Engineer">Ingeniero Mecatrónico</p>
+        <h1 class="display-name">Andrés<br>Cifuentes</h1>
+        <p class="roles mono" data-en="Embedded · Electronics · Programming · Computer Vision · Drones">Sistemas Embebidos · Electrónica · Programación · Visión Artificial · Drones</p>
+        <p class="lede" data-en="Mechatronics engineer bringing together electronics, embedded systems, programming and computer vision into complete hardware &amp; software solutions. From firmware and communication protocols to real-time video analysis — IP cameras and DJI drones with Python — I build things that work in the field.">
+          Ingeniero en Mecatrónica que une <strong>electrónica, sistemas embebidos, programación y visión por computadora</strong> en soluciones completas de hardware y software. Del firmware y los protocolos de comunicación al análisis de video en tiempo real —cámaras IP y drones DJI con Python—, construyo cosas que funcionan en campo.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn-primary" href="#contact" data-en="Let's collaborate">Colaboremos</a>
+          <a class="btn-ghost" href="#portfolio" data-en="See projects">Ver proyectos</a>
+        </div>
+
+        <ul class="telemetry mono" aria-label="stack">
+          <li><span class="dot"></span>RTSP/RTMP/ONVIF</li>
+          <li>Python · OpenCV</li>
+          <li>Raspberry Pi · Jetson · ESP32</li>
+          <li>Cámaras IP · Drones</li>
+        </ul>
+      </div>
+
+      <div class="hero-media">
+        <span class="deco deco-tri" aria-hidden="true"></span>
+        <span class="deco deco-dot" aria-hidden="true"></span>
+        <div class="photo-frame">
+          <!-- Coloca tu foto en img/andres.jpg -->
+          <img src="img/foto curr.jpg" alt="Andrés Fabián Cifuentes Muciño"
+               onerror="this.style.display='none';this.closest('.photo-frame').classList.add('no-photo')">
+          <div class="photo-fallback" aria-hidden="true">
+            <span class="fallback-initials">AC</span>
+            <span class="fallback-note mono">img/andres.jpg</span>
+          </div>
+        </div>
+        <span class="hero-tag mono" data-en="Hardware · Software · Vision">Hardware · Software · Visión</span>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT (general) ================= -->
+    <section id="about" class="about wrap">
+      <div class="about-left">
+        <p class="section-eyebrow" data-en="About me">Sobre mí</p>
+        <h2 class="about-head" data-en="I don't stick to one layer of the project: I design the electronics, write the firmware and software, and get computer vision running in real time.">
+          No me caso con una sola capa del proyecto: diseño la electrónica, escribo el firmware y el software, y llevo la visión por computadora a funcionar en tiempo real.
+        </h2>
+        <p class="about-text" data-en="Embedded systems, electronics, programming and computer vision — I combine these pieces into complete hardware and software solutions, from prototype to field validation. Real-time video analysis, IP cameras and drones fit naturally into that same toolkit.">
+          Sistemas embebidos, electrónica, programación y visión artificial: combino esas piezas en soluciones completas de hardware y software, desde el prototipo hasta la validación en campo. El análisis de video en tiempo real, las cámaras IP y los drones encajan de forma natural en ese mismo conjunto de herramientas.
+        </p>
+      </div>
+
+      <div class="about-right">
+        <p class="section-eyebrow" data-en="Got a project? Let's talk">¿Tienes un proyecto? Hablemos</p>
+        <h2 class="about-cta-head" data-en="Hardware, software &amp; vision in real time.">Hardware, software y visión en tiempo real.</h2>
+        <a class="mail-link" href="mailto:andrescifwork@gmail.com">
+          andrescifwork@gmail.com <span class="arrow" aria-hidden="true">→</span>
+        </a>
+        <div class="about-stats">
+          <div class="stat"><span class="stat-k mono">RTSP/RTMP/ONVIF</span><span class="stat-l" data-en="Real-time video">Video en tiempo real</span></div>
+          <div class="stat"><span class="stat-k mono">Edge AI</span><span class="stat-l" data-en="On-board inference">Inferencia a bordo</span></div>
+          <div class="stat"><span class="stat-k mono">HW+SW</span><span class="stat-l" data-en="Full integration">Integración completa</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PORTFOLIO ================= -->
+    <section id="portfolio" class="portfolio wrap">
+      <div class="section-head">
+        <p class="section-eyebrow" data-en="Portfolio">Portafolio</p>
+        <h2 class="section-title" data-en="Selected projects">Proyectos seleccionados</h2>
+      </div>
+
+      <div class="grid">
+
+        <!-- FEATURED DRONE CARD (full width, image) -->
+        <article class="card card-feature" role="listitem">
+          <div class="feature-media">
+            <img src="img/dji_lopez.jpg" alt="Análisis de video de drones DJI en tiempo real"
+                 onerror="this.closest('.feature-media').classList.add('no-img')">
+            <div class="media-fallback" aria-hidden="true">
+              <span class="fallback-note mono">coloca tu imagen en img/drone_dji_rtsp.jpg</span>
+            </div>
+            <span class="live-badge mono"><i></i> RTSP · ONVIF</span>
+          </div>
+          <div class="card-body">
+            <span class="badge-feature mono" data-en="Flagship">Proyecto insignia</span>
+            <div class="title" data-en="Real-time DJI drone video analysis">Análisis de video de drones DJI en tiempo real</div>
+            <p class="meta" data-en="Capture and processing of RTSP/RTMP/ONVIF streams from DJI drones directly on PC with Python: detection and tracking with computer vision over the aerial feed, latency measurement and in-flight validation.">
+              Captura y procesamiento de flujos RTSP/RTMP/ONVIF de drones DJI directamente en PC con Python: detección y seguimiento con visión por computadora sobre el feed aéreo, medición de latencia y validación en vuelo.
+            </p>
+            <div class="tags mono"><span>Python</span><span>RTSP</span><span>RTMP</span><span>ONVIF</span><span>OpenCV</span><span>DJI</span></div>
+            <div class="card-actions">
+              <a class="github-btn" data-repo="https://github.com/andrescifwork-dev" aria-label="GitHub" title="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5C5.7.5.9 5.3.9 11.6c0 4.7 3 8.7 7.2 10.1.5.1.7-.2.7-.5 0-.2 0-.9 0-1.8-2.9.6-3.5-1.4-3.5-1.4-.4-1-1-1.3-1-1.3-.8-.6.1-.6.1-.6.9.1 1.4.9 1.4.9.8 1.4 2.1 1 2.6.8.1-.7.3-1 .6-1.3-2.3-.3-4.7-1.2-4.7-5.4 0-1.2.4-2.1 1.1-2.9-.1-.3-.5-1.5.1-3.1 0 0 .9-.3 3.1 1.1.9-.3 1.9-.5 2.9-.5 1 0 2 .2 2.9.5 2.2-1.4 3.1-1.1 3.1-1.1.5 1.6.1 2.8.1 3.1.7.8 1.1 1.7 1.1 2.9 0 4.2-2.4 5.1-4.7 5.4.3.3.6.9.6 1.9 0 1.4 0 2.6 0 3 .1.3.3.6.7.5 4.2-1.4 7.2-5.4 7.2-10.1C23.1 5.3 18.3.5 12 .5z"/></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- EYE-TRACKING MOUSE -->
+        <article class="card" role="listitem">
+          <div class="card-img">
+            <img src="img/Grill stability testing.jpg" alt="Mouse ocular para personas con discapacidad"
+                 onerror="this.closest('.card-img').classList.add('no-img')">
+          </div>
+          <div class="card-body">
+            <div class="title" data-en="Eye-controlled mouse for people with disabilities">Mouse ocular para personas con discapacidad</div>
+            <p class="meta" data-en="Vision-based cursor control (Raspberry Pi 5, OpenCV, TensorFlow) that turns eye movements and facial gestures into mouse actions. Full stack: capture, edge inference, calibration and user testing.">
+              Control de cursor basado en visión (Raspberry Pi 5, OpenCV, TensorFlow) que traduce movimientos oculares y gestos faciales en acciones de mouse. Full-stack: captura, inferencia en edge, calibración y pruebas con usuarios.
+            </p>
+            <div class="tags mono"><span>Raspberry Pi 5</span><span>OpenCV</span><span>TensorFlow</span></div>
+          </div>
+          <div class="card-actions">
+            <a class="github-btn" data-repo="https://github.com/andrescifwork-dev/eye-face-tracking-mouse-controller" aria-label="GitHub" title="GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5C5.7.5.9 5.3.9 11.6c0 4.7 3 8.7 7.2 10.1.5.1.7-.2.7-.5 0-.2 0-.9 0-1.8-2.9.6-3.5-1.4-3.5-1.4-.4-1-1-1.3-1-1.3-.8-.6.1-.6.1-.6.9.1 1.4.9 1.4.9.8 1.4 2.1 1 2.6.8.1-.7.3-1 .6-1.3-2.3-.3-4.7-1.2-4.7-5.4 0-1.2.4-2.1 1.1-2.9-.1-.3-.5-1.5.1-3.1 0 0 .9-.3 3.1 1.1.9-.3 1.9-.5 2.9-.5 1 0 2 .2 2.9.5 2.2-1.4 3.1-1.1 3.1-1.1.5 1.6.1 2.8.1 3.1.7.8 1.1 1.7 1.1 2.9 0 4.2-2.4 5.1-4.7 5.4.3.3.6.9.6 1.9 0 1.4 0 2.6 0 3 .1.3.3.6.7.5 4.2-1.4 7.2-5.4 7.2-10.1C23.1 5.3 18.3.5 12 .5z"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- ACOUSTIC RADAR -->
+        <article class="card" role="listitem">
+          <div class="card-img">
+            <img src="img/linux system update upgrade.jpg" alt="Sistema radar acústico"
+                 onerror="this.closest('.card-img').classList.add('no-img')">
+          </div>
+          <div class="card-body">
+            <div class="title" data-en="Acoustic localization system">Sistema radar acústico de localización</div>
+            <p class="meta" data-en="Prototype for acoustic detection and localization using Raspberry Pi 5, sound sensors and industrial serial protocols (RS-485). Data acquisition, post-processing and validation in controlled tests, integrated with a control panel for event analysis.">
+              Prototipo de detección y localización acústica con Raspberry Pi 5, sensores de sonido y protocolos serie industriales (RS-485). Adquisición de datos, post-procesado y validación en pruebas controladas, integrado con un panel de control para análisis de eventos.
+            </p>
+            <div class="tags mono"><span>Raspberry Pi 5</span><span>RS-485</span><span>DSP</span></div>
+          </div>
+          <div class="card-actions">
+            <a class="github-btn" data-repo="https://github.com/andrescifwork-dev/Acoustic-Localization-System-Raspberry-Pi-5" aria-label="GitHub" title="GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5C5.7.5.9 5.3.9 11.6c0 4.7 3 8.7 7.2 10.1.5.1.7-.2.7-.5 0-.2 0-.9 0-1.8-2.9.6-3.5-1.4-3.5-1.4-.4-1-1-1.3-1-1.3-.8-.6.1-.6.1-.6.9.1 1.4.9 1.4.9.8 1.4 2.1 1 2.6.8.1-.7.3-1 .6-1.3-2.3-.3-4.7-1.2-4.7-5.4 0-1.2.4-2.1 1.1-2.9-.1-.3-.5-1.5.1-3.1 0 0 .9-.3 3.1 1.1.9-.3 1.9-.5 2.9-.5 1 0 2 .2 2.9.5 2.2-1.4 3.1-1.1 3.1-1.1.5 1.6.1 2.8.1 3.1.7.8 1.1 1.7 1.1 2.9 0 4.2-2.4 5.1-4.7 5.4.3.3.6.9.6 1.9 0 1.4 0 2.6 0 3 .1.3.3.6.7.5 4.2-1.4 7.2-5.4 7.2-10.1C23.1 5.3 18.3.5 12 .5z"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- PUMMEL -->
+        <article class="card" role="listitem">
+          <div class="card-img">
+            <img src="img/hammer and mechanical system.png" alt="Máquina de pruebas Pummel"
+                 onerror="this.closest('.card-img').classList.add('no-img')">
+          </div>
+          <div class="card-body">
+            <div class="title" data-en="Pummel test machine">Máquina de pruebas Pummel</div>
+            <p class="meta" data-en="CAD design and prototype fabrication, firmware on Raspberry Pi Pico (MicroPython) for test-sequence control, sensor/actuator integration and real-world validation runs. Owned technical documentation and client demos.">
+              Diseño CAD y fabricación de prototipo, firmware en Raspberry Pi Pico (MicroPython) para control de secuencias de prueba, integración de sensores y actuadores y validaciones en entorno real. Responsable de documentación técnica y demostración a clientes.
+            </p>
+            <div class="tags mono"><span>Pi Pico</span><span>MicroPython</span><span>CAD</span></div>
+          </div>
+          <div class="card-actions">
+            <a class="github-btn" data-repo="https://github.com/andrescifwork-dev/pummel-test-machine-control" aria-label="GitHub" title="GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5C5.7.5.9 5.3.9 11.6c0 4.7 3 8.7 7.2 10.1.5.1.7-.2.7-.5 0-.2 0-.9 0-1.8-2.9.6-3.5-1.4-3.5-1.4-.4-1-1-1.3-1-1.3-.8-.6.1-.6.1-.6.9.1 1.4.9 1.4.9.8 1.4 2.1 1 2.6.8.1-.7.3-1 .6-1.3-2.3-.3-4.7-1.2-4.7-5.4 0-1.2.4-2.1 1.1-2.9-.1-.3-.5-1.5.1-3.1 0 0 .9-.3 3.1 1.1.9-.3 1.9-.5 2.9-.5 1 0 2 .2 2.9.5 2.2-1.4 3.1-1.1 3.1-1.1.5 1.6.1 2.8.1 3.1.7.8 1.1 1.7 1.1 2.9 0 4.2-2.4 5.1-4.7 5.4.3.3.6.9.6 1.9 0 1.4 0 2.6 0 3 .1.3.3.6.7.5 4.2-1.4 7.2-5.4 7.2-10.1C23.1 5.3 18.3.5 12 .5z"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- LIDAR GPS -->
+        <article class="card" role="listitem">
+          <div class="card-img">
+            <img src="img/Lidar on car 2.jpg" alt="Sistema de mapeo LIDAR-GPS offline"
+                 onerror="this.closest('.card-img').classList.add('no-img')">
+          </div>
+          <div class="card-body">
+            <div class="title" data-en="Offline LIDAR-GPS mapping system">Sistema de mapeo LIDAR-GPS offline</div>
+            <p class="meta" data-en="LIDAR + GPS acquisition pipeline with offline storage and visualization tools; a lightweight backend exposes results over TCP/IP to web dashboards for route analysis and validation. Focus on data robustness and time sync.">
+              Pipeline de adquisición LIDAR + GPS con almacenamiento offline y herramientas de visualización; backend ligero que expone resultados vía TCP/IP a dashboards web para análisis y validación de rutas. Enfoque en robustez de datos y sincronización temporal.
+            </p>
+            <div class="tags mono"><span>LIDAR</span><span>GPS</span><span>TCP/IP</span></div>
+          </div>
+          <div class="card-actions">
+            <a class="github-btn" data-repo="https://github.com/andrescifwork-dev/gps-lidar-offline-mapping-system" aria-label="GitHub" title="GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5C5.7.5.9 5.3.9 11.6c0 4.7 3 8.7 7.2 10.1.5.1.7-.2.7-.5 0-.2 0-.9 0-1.8-2.9.6-3.5-1.4-3.5-1.4-.4-1-1-1.3-1-1.3-.8-.6.1-.6.1-.6.9.1 1.4.9 1.4.9.8 1.4 2.1 1 2.6.8.1-.7.3-1 .6-1.3-2.3-.3-4.7-1.2-4.7-5.4 0-1.2.4-2.1 1.1-2.9-.1-.3-.5-1.5.1-3.1 0 0 .9-.3 3.1 1.1.9-.3 1.9-.5 2.9-.5 1 0 2 .2 2.9.5 2.2-1.4 3.1-1.1 3.1-1.1.5 1.6.1 2.8.1 3.1.7.8 1.1 1.7 1.1 2.9 0 4.2-2.4 5.1-4.7 5.4.3.3.6.9.6 1.9 0 1.4 0 2.6 0 3 .1.3.3.6.7.5 4.2-1.4 7.2-5.4 7.2-10.1C23.1 5.3 18.3.5 12 .5z"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- IA CARD -->
+        <article class="card card-note" role="listitem">
+          <div class="card-img">
+            <img src="img/IA.jpg" alt="Qué sé sobre IA"
+                 onerror="this.closest('.card-img').classList.add('no-img')">
+          </div>
+          <div class="card-body">
+            <div class="title" data-en="What I know about AI">¿Qué sé sobre IA?</div>
+            <p class="meta" data-en="I use vision models (OpenCV/TensorFlow) for practical tasks — detection and tracking — and deploy them on devices like Raspberry Pi and Jetson to run in the field. I evaluate results (accuracy, false positives), tune preprocessing, measure latency, build test procedures and validate with the client, and explain and demo solutions in plain language.">
+              Uso modelos de visión (OpenCV/TensorFlow) para tareas prácticas —detección y seguimiento— y los despliego en dispositivos como Raspberry Pi y Jetson para operar en campo. Evalúo resultados (precisión, falsos positivos), ajusto el preprocesado, mido latencia, creo procedimientos de prueba y valido con el cliente, y explico y demuestro la solución en lenguaje sencillo.
+            </p>
+            <div class="tags mono"><span>Edge AI</span><span>OpenCV</span><span>TensorFlow</span></div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ================= EXPERIENCE ================= -->
+    <section id="experience" class="experience wrap">
+      <div class="section-head">
+        <p class="section-eyebrow" data-en="Experience">Trayectoria</p>
+        <h2 class="section-title" data-en="Professional experience &amp; capabilities">Experiencia profesional y capacidades</h2>
+      </div>
+
+      <div class="exp-grid">
+        <!-- PROFESSIONAL EXPERIENCE -->
+        <div class="exp-col">
+          <h3 class="exp-col-title" data-en="Professional experience">Experiencia profesional</h3>
+          <div class="role-stack">
+            <article class="role">
+              <div class="role-top">
+                <h4 data-en="Incoresoft — Pre-sales &amp; Post-sales">Incoresoft — Preventa y Postventa</h4>
+                <span class="role-period mono" data-en="1 year">1 año</span>
+              </div>
+              <p class="role-tag mono" data-en="AI video analytics · IP cameras">Analítica de video con IA · Cámaras IP</p>
+              <p class="role-desc" data-en="Video-analytics company processing IP-camera streams in real time with AI (Face Recognition, LPR, Object Detection). I provided technical support and installed the analytics software on client servers (MiddlewareCore, Process Runner, VMS Core and Recording Server), activated licenses, interpreted results, and configured and fine-tuned IP cameras from Axis, Hanwha, Hikvision, Dahua and Vivotek.">
+                Empresa de analítica de video que procesa flujos de cámaras IP en tiempo real con IA (Face Recognition, LPR, Object Detection). Brindé soporte técnico e instalé el software de análisis en servidores de clientes (MiddlewareCore, Process Runner, VMS Core y Recording Server), activé licencias, interpreté resultados y realicé configuración y ajuste fino de cámaras IP Axis, Hanwha, Hikvision, Dahua y Vivotek.
+              </p>
+            </article>
+            <article class="role">
+              <div class="role-top">
+                <h4 data-en="Termoflow de México — Embedded Systems">Termoflow de México — Sistemas Embebidos</h4>
+                <span class="role-period mono">Sep 2022 – Ago 2025</span>
+              </div>
+              <p class="role-tag mono" data-en="Embedded prototypes · Firmware">Prototipos embebidos · Firmware</p>
+              <p class="role-desc" data-en="End-to-end development of embedded prototypes: hardware selection, electronics, firmware, software and testing. Communication-protocol implementation, legacy-system modernization with Raspberry Pi, CAD design and additive manufacturing, plus technical documentation and client demos.">
+                Desarrollo integral de prototipos embebidos: selección de hardware, electrónica, firmware, software y pruebas. Implementación de protocolos de comunicación, modernización de sistemas legacy con Raspberry Pi, diseño CAD y fabricación aditiva, además de documentación técnica y demostraciones a clientes.
+              </p>
+            </article>
+          </div>
+        </div>
+
+        <!-- TECHNICAL CAPABILITIES -->
+        <div class="exp-col">
+          <h3 class="exp-col-title" data-en="Technical capabilities">Capacidades técnicas</h3>
+          <div class="exp-stack">
+            <div class="exp-item">
+              <span class="exp-num mono">01</span>
+              <div>
+                <h4 data-en="Hardware/Software integration">Integración Hardware/Software</h4>
+                <p data-en="Systems based on Raspberry Pi, Jetson and ESP32; network configuration and device communication. Protocols: UART, I2C, SPI, TCP/IP, RS-485.">Sistemas basados en Raspberry Pi, Jetson y ESP32; configuración de red y comunicación entre dispositivos. Protocolos: UART, I2C, SPI, TCP/IP, RS-485.</p>
+              </div>
+            </div>
+            <div class="exp-item">
+              <span class="exp-num mono">02</span>
+              <div>
+                <h4 data-en="Programming &amp; firmware">Programación y firmware</h4>
+                <p data-en="Python, C/C++ and Java; firmware (MicroPython/C++), integration scripts and version control with Git.">Python, C/C++ y Java; firmware (MicroPython/C++), scripts de integración y control de versiones con Git.</p>
+              </div>
+            </div>
+            <div class="exp-item">
+              <span class="exp-num mono">03</span>
+              <div>
+                <h4 data-en="Electronics &amp; PCB">Electrónica y PCB</h4>
+                <p data-en="PCB design in KiCad, SMD/THT soldering, oscilloscope measurement and circuit validation.">Diseño de PCB en KiCad, soldadura SMD/THT, medición con osciloscopio y validación de circuitos.</p>
+              </div>
+            </div>
+            <div class="exp-item">
+              <span class="exp-num mono">04</span>
+              <div>
+                <h4 data-en="Computer vision &amp; real-time video">Visión artificial y video en tiempo real</h4>
+                <p data-en="OpenCV and TensorFlow; analysis of RTSP/RTMP/ONVIF streams with Python — including IP cameras and DJI drones.">OpenCV y TensorFlow; análisis de flujos RTSP/RTMP/ONVIF con Python, incluyendo cámaras IP y drones DJI.</p>
+              </div>
+            </div>
+            <div class="exp-item">
+              <span class="exp-num mono">05</span>
+              <div>
+                <h4 data-en="CAD &amp; prototyping">Diseño CAD y prototipado</h4>
+                <p data-en="SolidWorks and Fusion 360, 3D printing, CNC and functional testing for fast validation.">SolidWorks y Fusion 360, impresión 3D, CNC y pruebas funcionales para validación rápida.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="exp-foot" data-en="Mechatronics Engineer, TecNM (2024) · Pre/Post-sales at Incoresoft (1 yr) · Embedded Systems at Termoflow de México (2022–2025)">
+        Ingeniero en Mecatrónica, TecNM (2024) · Preventa/Postventa en Incoresoft (1 año) · Sistemas Embebidos en Termoflow de México (2022–2025)
+      </p>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section id="skills" class="skills wrap">
+      <div class="section-head">
+        <p class="section-eyebrow" data-en="Skills">Habilidades</p>
+        <h2 class="section-title" data-en="What I bring">Lo que aporto</h2>
+      </div>
+
+      <div class="skills-cols">
+        <div class="skills-block">
+          <h3 class="skills-block-title" data-en="Technical">Técnicas</h3>
+          <div class="skills-grid">
+            <div class="skill" data-percent="90"><div class="skill-top"><span class="skill-name" data-en="Embedded systems (Raspberry Pi · Jetson · ESP32)">Sistemas embebidos (Raspberry Pi · Jetson · ESP32)</span><span class="skill-pct mono"></span></div><div class="bar"><i></i></div></div>
+            <div class="skill" data-percent="88"><div class="skill-top"><span class="skill-name" data-en="Programming · Python / C++ / Java">Programación · Python / C++ / Java</span><span class="skill-pct mono"></span></div><div class="bar"><i></i></div></div>
+            <div class="skill" data-percent="88"><div class="skill-top"><span class="skill-name" data-en="Real-time video · RTSP/RTMP/ONVIF">Video en tiempo real · RTSP/RTMP/ONVIF</span><span class="skill-pct mono"></span></div><div class="bar"><i></i></div></div>
+            <div class="skill" data-percent="85"><div class="skill-top"><span class="skill-name" data-en="Computer vision · OpenCV / TensorFlow">Visión artificial · OpenCV / TensorFlow</span><span class="skill-pct mono"></span></div><div class="bar"><i></i></div></div>
+            <div class="skill" data-percent="84"><div class="skill-top"><span class="skill-name" data-en="Electronics &amp; PCB · KiCad / soldering">Electrónica y PCB · KiCad / soldadura</span><span class="skill-pct mono"></span></div><div class="bar"><i></i></div></div>
+            <div class="skill" data-percent="80"><div class="skill-top"><span class="skill-name" data-en="IP cameras &amp; VMS · Axis/Hanwha/Hikvision/Dahua/Vivotek">Cámaras IP y VMS · Axis/Hanwha/Hikvision/Dahua/Vivotek</span><span class="skill-pct mono"></span></div><div class="bar"><i></i></div></div>
+            <div class="skill" data-percent="78"><div class="skill-top"><span class="skill-name" data-en="Linux · Git · CAD · Web">Linux · Git · CAD · Web</span><span class="skill-pct mono"></span></div><div class="bar"><i></i></div></div>
+          </div>
+        </div>
+
+        <div class="skills-block">
+          <h3 class="skills-block-title" data-en="Professional">Profesionales</h3>
+          <div class="skills-grid">
+            <div class="skill" data-percent="90"><div class="skill-top"><span class="skill-name" data-en="Professionalism &amp; formality">Formalidad y profesionalismo</span><span class="skill-pct mono"></span></div><div class="bar"><i></i></div></div>
+            <div class="skill" data-percent="88"><div class="skill-top"><span class="skill-name" data-en="Technical support &amp; client-facing">Soporte técnico y trato con clientes</span><span class="skill-pct mono"></span></div><div class="bar"><i></i></div></div>
+            <div class="skill" data-percent="88"><div class="skill-top"><span class="skill-name" data-en="Self-taught · Teamwork">Autodidacta · Trabajo en equipo</span><span class="skill-pct mono"></span></div><div class="bar"><i></i></div></div>
+            <div class="skill" data-percent="85"><div class="skill-top"><span class="skill-name" data-en="Assertive communication">Comunicación asertiva</span><span class="skill-pct mono"></span></div><div class="bar"><i></i></div></div>
+            <div class="skill" data-percent="85"><div class="skill-top"><span class="skill-name" data-en="Demos &amp; user training">Demos y capacitación a usuarios</span><span class="skill-pct mono"></span></div><div class="bar"><i></i></div></div>
+            <div class="skill" data-percent="80"><div class="skill-top"><span class="skill-name" data-en="Office suite">Paquetería Office</span><span class="skill-pct mono"></span></div><div class="bar"><i></i></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- LANGUAGES -->
+      <div id="languages" class="languages">
+        <h3 class="skills-block-title" data-en="Languages">Idiomas</h3>
+        <div class="chips">
+          <span class="chip" data-en="Spanish — Native">Español — Nativo</span>
+          <span class="chip" data-en="English — Intermediate">Inglés — Intermedio</span>
+        </div>
+        <div class="mobility">
+          <span class="mob-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 2.5 15 0 18M12 3c-2.5 2.5-2.5 15 0 18"/></svg>
+          </span>
+          <div class="mob-body">
+            <span class="mob-label" data-en="International mobility">Movilidad internacional</span>
+            <span class="mob-text" data-en="Valid <strong>Mexican passport</strong> and <strong>US B1/B2 visa</strong> (tourism/business), valid for 5 years. Fully available to travel.">Cuento con <strong>pasaporte mexicano vigente</strong> y <strong>Visa Americana B1/B2</strong> (turismo/negocios) con vigencia de 5 años. Disponibilidad total para viajar.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CERTIFICATES (carousel) ================= -->
+    <section id="certificates" class="certs wrap">
+      <div class="section-head">
+        <p class="section-eyebrow" data-en="Certificates &amp; extracurricular">Certificados y extracurricular</p>
+        <h2 class="section-title" data-en="Continuous learning">Aprendizaje continuo</h2>
+      </div>
+
+      <div class="cert-carousel" data-autoplay="17000">
+        <div class="cert-stage">
+          <figure class="cert-slide is-active">
+            <img src="img/IBM_crtf.jpg" alt="Certificado IBM"
+                 onerror="this.closest('.cert-slide').classList.add('no-img')">
+            <figcaption class="mono">IBM</figcaption>
+          </figure>
+
+          <figure class="cert-slide is-active">
+            <img src="img/cert_microcontroladores.jpg" alt="Certificado IBM"
+                 onerror="this.closest('.cert-slide').classList.add('no-img')">
+            <figcaption class="mono">Microcontroladores</figcaption>
+          </figure>
+
+          <figure class="cert-slide">
+            <img src="img/cons_unam_cpp.jpg" alt="Constancia UNAM C++"
+                 onerror="this.closest('.cert-slide').classList.add('no-img')">
+            <figcaption class="mono">UNAM · C++</figcaption>
+          </figure>
+
+          <figure class="cert-slide">
+            <img src="img/cert_vms.jpg" alt="Constancia Inteligencia Artificial"
+                 onerror="this.closest('.cert-slide').classList.add('no-img')">
+            <figcaption class="mono" data-en="Artificial Intelligence">VMS Incoresoft</figcaption>
+          </figure>
+
+          <figure class="cert-slide is-active">
+            <img src="img/cert_scrum.jpg" alt="Certificado IBM"
+                 onerror="this.closest('.cert-slide').classList.add('no-img')">
+            <figcaption class="mono">Scrum</figcaption>
+          </figure>
+
+          <figure class="cert-slide">
+            <img src="img/cert_neza.jpg" alt="Constancia Inteligencia Artificial"
+                 onerror="this.closest('.cert-slide').classList.add('no-img')">
+            <figcaption class="mono" data-en="Artificial Intelligence">Expo Neza</figcaption>
+          </figure>
+
+          <figure class="cert-slide">
+            <img src="img/Cons_emprendedores.jpg" alt="Constancia emprendedores"
+                 onerror="this.closest('.cert-slide').classList.add('no-img')">
+            <figcaption class="mono" data-en="Entrepreneurship">Emprendedores</figcaption>
+          </figure>
+
+        </div>
+        <button class="cert-nav prev" aria-label="Anterior">‹</button>
+        <button class="cert-nav next" aria-label="Siguiente">›</button>
+        <div class="cert-dots" role="tablist" aria-label="Certificados"></div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="contact wrap">
+      <div class="contact-inner">
+        <div class="contact-left">
+          <p class="section-eyebrow" data-en="Contact">Contacto</p>
+          <h2 class="contact-head" data-en="Let's build something that works.">Construyamos algo que funcione.</h2>
+          <p class="contact-sub" data-en="Engineer focused on embedded systems, electronics, computer vision and real-time video analysis. Immediate availability.">Ingeniero enfocado en sistemas embebidos, electrónica, visión por computadora y análisis de video en tiempo real. Disponibilidad inmediata.</p>
+        </div>
+        <div class="contact-right">
+          <ul class="contact-list">
+            <li><span class="k mono">Email</span><a href="mailto:andrescifwork@gmail.com">andrescifwork@gmail.com</a></li>
+            <li><span class="k mono">Tel</span><a href="tel:+525642447425">+52 56 4244 7425</a></li>
+            <li><span class="k mono" data-en="Location">Ubicación</span><span>CDMX, México</span></li>
+          </ul>
+          <div class="socials">
+            <a class="pill" href="https://github.com/andrescifwork-dev" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a class="pill" href="https://www.linkedin.com/in/andres-fabian-cifuentes-muci%C3%B1o-6abb69385/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a class="pill" href="https://candidato.mx.computrabajo.com/candidate/cv/edit/" target="_blank" rel="noopener noreferrer">CompuTrabajo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="wrap foot-wrap">
+      <div>
+        <strong>Andrés F. Cifuentes Muciño</strong><br>
+        <small class="muted" data-en="Embedded systems · Electronics · Computer vision · Drones">Sistemas embebidos · Electrónica · Visión artificial · Drones</small>
+      </div>
+      <small class="muted">© <span id="anio"></span> — <span data-en="All rights reserved">Todos los derechos reservados</span></small>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

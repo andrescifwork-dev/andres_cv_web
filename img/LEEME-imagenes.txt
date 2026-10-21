@@ -1,0 +1,21 @@
+Coloca aquí tus imágenes con EXACTAMENTE estos nombres:
+
+FOTO DE PRESENTACIÓN (hero)
+  andres.jpg                          -> tu foto personal
+
+PROYECTOS
+  drone_dji_rtsp.jpg                  -> poster/imagen de respaldo del video de drones (se muestra si el video aún no carga)
+  Grill stability testing.jpg         -> mouse ocular para personas con discapacidad
+  linux system update upgrade.jpg     -> sistema radar acústico
+  hammer and mechanical system.png    -> máquina de pruebas Pummel
+  Lidar on car 2.jpg                  -> mapeo LIDAR-GPS offline
+  IA.jpg                              -> "¿Qué sé sobre IA?"
+
+CERTIFICADOS (carrusel)
+  IBM_crtf.jpg                        -> certificado IBM
+  cons_unam_cpp.jpg                   -> constancia UNAM (C++)
+  Cons_emprendedores.jpg              -> constancia emprendedores
+
+Si falta alguna, la página muestra un marcador (IMG / CERT / iniciales) sin romperse.
+El carrusel usa contenedor de tamaño fijo con object-fit: contain, así que
+certificados de distinto tamaño NO saltan al cambiar.
